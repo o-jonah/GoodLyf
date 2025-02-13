@@ -9,23 +9,71 @@
 </head>
 <body>
   
-  <!--Header section-->
-
   <header>
-      <h1>GoodLyf</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#index">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="login.html">Login</a></li>
-          <li><a href="signup.html">SignUp</a></li>
+    <h1>Welcome to Our Restaurant</h1>
+    <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+    <nav>
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact Us</a></li>
         </ul>
-      </nav>
-  </header>
+    </nav>
+</header>
 
+<section id="home" class="hero">
+    <h2>Delicious Food Awaits</h2>
+</section>
 
-  <script src="script.js"></script>
+<section id="menu">
+    <h2>Our Menu</h2>
+    <div class="box-container">
+        <div class="box">Pizza</div>
+        <div class="box">Pasta</div>
+        <div class="box">Burgers</div>
+        <div class="box">Salads</div>
+    </div>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="box-container">
+        <div class="box">Dine-in</div>
+        <div class="box">Take-out</div>
+        <div class="box">Delivery</div>
+        <div class="box">Catering</div>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>We are dedicated to providing the best culinary experiences with fresh ingredients and amazing flavors.</p>
+</section>
+
+<section id="reviews">
+    <h2>Customer Reviews</h2>
+    <div class="review">
+        <p>"The food was absolutely amazing! Highly recommend." - John Doe</p>
+    </div>
+    <div class="review">
+        <p>"Great ambiance and excellent service. Will visit again!" - Jane Smith</p>
+    </div>
+    <div class="review">
+        <p>"Best dining experience I've had in years!" - Alex Johnson</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@restaurant.com | Phone: +123 456 7890</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Our Restaurant. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
